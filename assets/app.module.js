@@ -1,11 +1,31 @@
 (function(app) {
-  app.AppModule =
-    ng.core.NgModule({
-      imports: [ ng.platformBrowser.BrowserModule],
-      declarations: [ app.AppComponent ],
-      bootstrap: [ app.AppComponent ]
-    })
-    .Class({
-      constructor: function() {}
-    });
+	//instantiating appRoute constant
+	var appRoutes = [
+		// { path: '', component: app.AppComponent },
+		{ path: 'blackjack', component: app.BlackJackComponent }
+		// { path: 'crisis-center', component: CrisisListComponent }
+	];
+
+	// instantiating module
+	app.AppModule =
+	ng.core.NgModule({
+
+	// RouterModule.forRoot(appRoutes) - loads the routes 
+		imports: [ 
+			ng.platformBrowser.BrowserModule, 
+			ng.router.RouterModule.forRoot(appRoutes)
+		],
+
+		declarations: [ 
+			app.AppComponent,
+			app.BlackJackComponent 
+		],
+
+		bootstrap: [ 
+			app.AppComponent
+		]
+	})
+	.Class({
+		constructor: function() {}
+	});
 })(window.app || (window.app = {}));

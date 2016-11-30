@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>King</title>
+	<title>kevinyk.github.io</title>
+
+    <!-- Base href (used for router setup) -->
+    <base href='/'>
 
     <!-- Load Bootstrap 4.0.0 -->
-    <link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-alpha.5-dist/css/bootstrap.min.css">
-    <script type="text/javascript" src="bootstrap-4.0.0-alpha.5-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/external/bootstrap-4.0.0-alpha.5-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="assets/external/bootstrap-4.0.0-alpha.5-dist/js/bootstrap.min.js"></script>
 
 	<!-- Load main scripts -->
-	<script type="text/javascript" src='core-js/client/shim.min.js'></script>
+	<script type="text/javascript" src='assets/external/core-js/client/shim.min.js'></script>
 
-	<script src="zone.js/dist/zone.js"></script>
-    <script src="reflect-metadata/Reflect.js"></script>
+	<script src="assets/external/zone.js/dist/zone.js"></script>
+    <script src="assets/external/reflect-metadata/Reflect.js"></script>
 
-    <script src="rxjs/bundles/Rx.js"></script>
-    <script src="@angular/core/bundles/core.umd.js"></script>
-    <script src="@angular/common/bundles/common.umd.js"></script>
-    <script src="@angular/compiler/bundles/compiler.umd.js"></script>
-    <script src="@angular/platform-browser/bundles/platform-browser.umd.js"></script>
-    <script src="@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js"></script>
+    <script src="assets/external/rxjs/bundles/Rx.js"></script>
+    <script src="assets/external/@angular/core/bundles/core.umd.js"></script>
+    <script src="assets/external/@angular/common/bundles/common.umd.js"></script>
+    <script src="assets/external/@angular/compiler/bundles/compiler.umd.js"></script>
+    <script src="assets/external/@angular/platform-browser/bundles/platform-browser.umd.js"></script>
+    <script src="assets/external/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js"></script>
+
+    <!-- Load routing module -->
+    <script src="assets/external/@angular/router/bundles/router.umd.min.js"></script>
 
 
-    <script src="@angular/forms/bundles/forms.umd.js"></script>
-    <script src="@ng-bootstrap/ng-bootstrap/bundles/ng-bootstrap.js"></script>
+    <!-- Angular 2 Directives for Bootstrap -->
+    <script src="assets/external/@angular/forms/bundles/forms.umd.js"></script>
+    <script src="assets/external/@ng-bootstrap/ng-bootstrap/bundles/ng-bootstrap.js"></script>
 
 
     <!-- Our scripts -->
     <script src='assets/app.component.js'></script>
+    <script src='assets/app.blackjack.component.js'></script>
     <script src='assets/app.module.js'></script>
     <script src='assets/main.js'></script>
+
+    <!-- BlackJack Stuff -->
+    <link rel="stylesheet" type="text/css" href="assets/blackjack/blackjack.css">
+    <script type="text/javascript" src = "assets/blackjack/deckofCardsArr.js"></script>
 
 
   </head>
