@@ -1,0 +1,295 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#world{
+	text-align: center;
+}
+#options{
+	margin-top: 10px;
+	font-size:20px;
+	font-style:bold;
+}
+#back{
+	height:98px;
+	width:73px;
+	background-color: black;
+	background-image: url('coin.gif');
+	background-repeat:none;
+	background-size:40% 40%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.card{
+	display:inline-block;
+	margin:5px;
+}
+#hit, #stay, #restart{
+	height:60px;
+	width:160px;
+}
+*{
+margin:0px;
+padding:0px;
+}
+#c1{
+	height:98px;
+	width:73px;
+	background:url('cards.png') 0px 0px;
+}
+#c2{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -73px 0px;
+}
+#c3{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -146px 0px;
+}
+#c4{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -219px 0px;
+}
+#c5{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -292px 0px;
+}
+#c6{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -365px 0px;
+}
+#c7{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -438px 0px;
+}
+#c8{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -511px 0px;
+}
+#c9{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -584px 0px;
+}
+#c10{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -657px 0px;
+}
+#cj{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -730px 0px;
+}
+#cq{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -803px 0px;
+}
+#ck{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -876px 0px;
+}
+#s1{
+	height:98px;
+	width:73px;
+	background:url('cards.png') 0px -98px;
+}
+#s2{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -73px -98px;
+}
+#s3{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -146px -98px;
+}
+#s4{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -219px -98px;
+}
+#s5{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -292px -98px;
+}
+#s6{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -365px -98px;
+}
+#s7{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -438px -98px;
+}
+#s8{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -511px -98px;
+}
+#s9{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -584px -98px;
+}
+#s10{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -657px -98px;
+}
+#sj{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -730px -98px;
+}
+#sq{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -803px -98px;
+}
+#sk{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -876px -98px;
+}
+#h1{
+	height:98px;
+	width:73px;
+	background:url('cards.png') 0px -196px;
+}
+#h2{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -73px -196px;
+}
+#h3{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -146px -196px;
+}
+#h4{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -219px -196px;
+}
+#h5{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -292px -196px;
+}
+#h6{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -365px -196px;
+}
+#h7{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -438px -196px;
+}
+#h8{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -511px -196px;
+}
+#h9{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -584px -196px;
+}
+#h10{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -657px -196px;
+}
+#hj{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -730px -196px;
+}
+#hq{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -803px -196px;
+}
+#hk{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -876px -196px;
+}
+#d1{
+	height:98px;
+	width:73px;
+	background:url('cards.png') 0px -294px;
+}
+#d2{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -73px -294px;
+}
+#d3{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -146px -294px;
+}
+#d4{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -219px -294px;
+}
+#d5{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -292px -294px;
+}
+#d6{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -365px -294px;
+}
+#d7{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -438px -294px;
+}
+#d8{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -511px -294px;
+}
+#d9{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -584px -294px;
+}
+#d10{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -657px -294px;
+}
+#dj{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -730px -294px;
+}
+#dq{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -803px -294px;
+}
+#dk{
+	height:98px;
+	width:73px;
+	background:url('cards.png') -876px -294px;
+}
