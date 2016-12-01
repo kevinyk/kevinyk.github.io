@@ -1,6 +1,6 @@
 # kevinyk.github.io
 
-This is an angular2 frontend, written exclusively in JavaScript.
+This is an angular2 frontend, written exclusively in JavaScript. A place to practice frontend development and learn a new framework at the same time.
 
 Dependencies:
 
