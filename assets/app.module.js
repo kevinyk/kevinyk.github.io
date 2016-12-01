@@ -13,7 +13,7 @@
 	// RouterModule.forRoot(appRoutes) - loads the routes 
 		imports: [ 
 			ng.platformBrowser.BrowserModule, 
-			ng.router.RouterModule.forRoot(appRoutes)
+			ng.router.RouterModule.forRoot(appRoutes, { useHash: true })
 		],
 
 		declarations: [ 
