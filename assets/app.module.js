@@ -10,9 +10,12 @@
 	app.AppModule =
 	ng.core.NgModule({
 
-	// RouterModule.forRoot(appRoutes) - loads the routes 
+	
 		imports: [ 
 			ng.platformBrowser.BrowserModule, 
+			// The ng-bootstrap module
+			ngb.NgbRootModule,
+			// RouterModule.forRoot(appRoutes) - loads the routes 
 			ng.router.RouterModule.forRoot(appRoutes, { useHash: true })
 		],
 
