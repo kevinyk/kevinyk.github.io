@@ -16,9 +16,9 @@
 			// The ng-bootstrap module
 			ngb.NgbRootModule,
 			// RouterModule.forRoot(appRoutes) - loads the routes 
-			ng.router.RouterModule.forRoot(appRoutes, { useHash: true })
+			ng.router.RouterModule.forRoot(appRoutes, { useHash: true, initialNavigation: true })
 		],
-
+		// Any components to be used by a module must be in the declarations array
 		declarations: [ 
 			app.AppComponent,
 			app.BlackJackComponent 

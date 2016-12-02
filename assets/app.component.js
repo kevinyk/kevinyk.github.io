@@ -8,7 +8,18 @@
 		templateUrl: 'partials/front.html'
 	})
 	.Class({
-		constructor: function() {}
+		constructor: function() {
+			console.log(this);
+			this.buttonStatus=false;
+			this.toggleButtonText = function(){
+				console.log('you clicked meh')
+				if(this.buttonStatus){
+					this.buttonStatus=false;
+				}else{
+					this.buttonStatus=true;
+				}
+			}
+		}
 	});
     
 })(window.app || (window.app = {}));
