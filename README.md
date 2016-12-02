@@ -1,6 +1,7 @@
 # kevinyk.github.io
 
-This is an angular2 frontend, written exclusively in JavaScript. A place to practice frontend development and learn a new framework at the same time.
+This is an Angular2 frontend, written exclusively in JavaScript. 
+A place to practice frontend development and learn a new framework at the same time.
 
 Dependencies:
 
@@ -10,7 +11,8 @@ Dependencies:
 
 Features in development:
 
-
-* Test the navbar and carousel bootstrap ui elements using ng-bootstrap and angular2 alone
-* Custom angular2 animations
+* Establish communication between the app component and the blackjack component to change the button status if a user navigates to a page using a partial link. (Hacky solution around having no access to control incoming http requests)
+* loading screen to have something nice to look at when my angular code breaks
+* Test the navbar and carousel bootstrap ui elements using ng-bootstrap and Angular2 alone
+* Custom Angular2 animations
 * Add splits, double downs, and proper blackjack declaration to the blackjack Javascript game

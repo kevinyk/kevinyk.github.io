@@ -1,3 +1,4 @@
+// The Blackjack component is a JavaScript game. Upon loading the template, it invokes the ngOnInit function to start the game loop.
 (function(app) {
 	app.BlackJackComponent =
 	ng.core.Component({
@@ -7,7 +8,8 @@
 	.Class({
 		constructor: function() {},
 		ngOnInit: function(){
-
+			this.buttonStatus = true;
+			// The core game logic
 			var dealer = new PlayerConstructor("Dealer");
 			// var name = prompt("Hello, enter your name!");
 			var player = new PlayerConstructor("Kevin");

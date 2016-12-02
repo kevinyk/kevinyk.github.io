@@ -3,10 +3,9 @@
 <head>
 	<title>kevinyk.github.io</title>
 
-    <!-- Base href (used for router setup) -->
+    <!-- Base href (used by angular route) -->
     <base href='/'>
 
-    
 
 	<!-- Load main scripts -->
 	<script type="text/javascript" src='assets/external/core-js/client/shim.min.js'></script>
@@ -31,23 +30,34 @@
 
     <!-- Load Bootstrap 4.0.0 -->
     <link rel="stylesheet" type="text/css" href="assets/external/bootstrap-4.0.0-alpha.5-dist/css/bootstrap.min.css">
-    <script type="text/javascript" src="assets/external/bootstrap-4.0.0-alpha.5-dist/js/bootstrap.min.js"></script>
 
-    <!-- Our scripts -->
+
+    <!-- Angular app scripts -->
     <script src='assets/app.component.js'></script>
     <script src='assets/app.blackjack.component.js'></script>
     <script src='assets/app.module.js'></script>
     <script src='assets/main.js'></script>
 
-    <!-- BlackJack Stuff -->
+    <!-- Blackjack styles and script -->
     <link rel="stylesheet" type="text/css" href="assets/blackjack/blackjack.css">
     <script type="text/javascript" src = "assets/blackjack/deckOfCardsArr.js"></script>
 
+    <!-- Styling the loading screen -->
+    <style type="text/css">
+        #loading_screen{
+            font-size: 3em;
+            text-align: center;
+            background-image: url('');
 
+            animation-duration: 0.1s;
+            animation-name: slidein;
+        }
+
+    </style>
   </head>
 
   <!-- 3. Display the application -->
   <body>
-    <my-app>Loading...</my-app>
+    <my-app><div id ="loading_screen">Is this easy mode?</div></my-app>
   </body>
 </html>

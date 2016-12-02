@@ -23,7 +23,8 @@
 <div class="jumbotron">
   <div class="container">
     <h2>Bleeding edge imported libraries, bottom of the barrel aesthetics.</h2>
-    <h4><a class="btn btn-primary btn-lg" routerLink="/blackjack" routerLinkActive="active">Play my Janky Blackjack game</a></h4>
+    <!-- This button toggles the blackjack component -->
+    <h4><span *ngIf='!buttonStatus'><a class="btn btn-primary btn-lg" routerLink="/blackjack" routerLinkActive="active" (click)="toggleButtonText()">Play my janky Blackjack game</a></span><span *ngIf='buttonStatus'><a class="btn btn-primary btn-lg active" routerLink="/" routerLinkActive="active" (click)="toggleButtonText()">Stop playing my janky Blackjack game</a></span></h4>
     <!-- Sample button+anchor -->
     <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p> -->
   </div>
