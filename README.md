@@ -12,6 +12,7 @@ Dependencies:
 Features in development:
 
 * Establish communication between the app component and the blackjack component to change the button status if a user navigates to a page using a partial link. (Hacky solution around having no access to control incoming http requests)
+* Fix blackjack bug PlayerConstructor: cannot find index 1 of undefined in deckofcards script
 * loading screen to have something nice to look at when my angular code breaks
 * Test the navbar and carousel bootstrap ui elements using ng-bootstrap and Angular2 alone
 * Custom Angular2 animations
